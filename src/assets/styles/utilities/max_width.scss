@@ -1,0 +1,6 @@
+$max-widths: 120, 300, 400, 500;
+@each $max-width in $max-widths {
+  .max-w-#{$max-width}-px {
+    max-width: $max-width * 1px !important;
+  }
+}

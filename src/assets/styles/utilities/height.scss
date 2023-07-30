@@ -1,0 +1,6 @@
+$heights: 0, 40;
+@each $height in $heights {
+  .h-#{$height}-px {
+    height: $height * 1px !important;
+  }
+}

@@ -1,0 +1,18 @@
+$paddings: 0;
+@each $padding in $paddings {
+  .pl-#{$padding}-px {
+    padding-left: $padding * 1px !important;
+  }
+  .pt-#{$padding}-px {
+    padding-top: $padding * 1px !important;
+  }
+  .pr-#{$padding}-px {
+    padding-right: $padding * 1px !important;
+  }
+  .pb-#{$padding}-px {
+    padding-bottom: $padding * 1px !important;
+  }
+  .p-#{$padding}-px {
+    padding: $padding * 1px !important;
+  }
+}

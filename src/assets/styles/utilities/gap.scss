@@ -1,0 +1,6 @@
+$gaps: 5;
+@each $gap in $gaps {
+  .gap-#{$gap}-px {
+    gap: $gap * 1px !important;
+  }
+}

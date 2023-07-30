@@ -1,0 +1,6 @@
+$min-widths: 120;
+@each $min-width in $min-widths {
+  .min-w-#{$min-width}-px {
+    min-width: $min-width * 1px !important;
+  }
+}

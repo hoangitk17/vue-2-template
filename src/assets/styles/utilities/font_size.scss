@@ -1,0 +1,7 @@
+$fs: 9, 10, 12, 14, 16, 18, 20, 22, 24, 28, 32;
+
+@each $font-size in $fs {
+  .fs-#{$font-size} {
+    font-size: $font-size * 0.1rem !important;
+  }
+}

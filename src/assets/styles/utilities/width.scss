@@ -1,0 +1,6 @@
+$widths: 0;
+@each $width in $widths {
+  .w-#{$width}-px {
+    width: $width * 1px !important;
+  }
+}
