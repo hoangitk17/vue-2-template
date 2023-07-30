@@ -1,5 +1,5 @@
 <template>
-  <section>test</section>
+  <section class="test">test24335</section>
 </template>
 
 <script>
@@ -11,4 +11,8 @@ export default {
 };
 </script>
 
-<style></style>
+<style lang="scss" scoped>
+.test {
+  color: $primary-color;
+}
+</style>

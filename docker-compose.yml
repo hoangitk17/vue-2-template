@@ -7,9 +7,12 @@ services:
       dockerfile: Dockerfile
     volumes:
       - ./:/app
+      - /app/node_modules
     ports:
       - "8083:8080"
     restart: unless-stopped
+    environment:
+      - CHOKIDAR_USEPOLLING=true # <---- this enables the hot reloading
     command: sh /scripts/command.sh
     networks:
       - example

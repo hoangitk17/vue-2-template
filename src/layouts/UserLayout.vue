@@ -1,17 +1,14 @@
 <template>
-<div>
-  <router-view />
-</div>
+  <div>
+    <router-view />
+  </div>
 </template>
 
 <script>
 export default {
   name: "UserLayout",
-  components: {
-  },
+  components: {},
 };
 </script>
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>

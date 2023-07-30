@@ -1,8 +1,12 @@
 # quotation-app
 
 ## Project setup
+
 ```
-npm install
+cp .env.example .env
+```
+```
+docker-compose up
 ```
 
 

@@ -9,7 +9,7 @@ export default [
         name: "home",
         component: () => import("@/pages/home/index.vue"),
       },
-    ]
+    ],
   },
   {
     path: "",
@@ -20,7 +20,7 @@ export default [
         path: "/login",
         name: "login",
         component: () => import("@/pages/login/index.vue"),
-      }
+      },
     ],
   },
   {
